@@ -10,7 +10,7 @@
 }
 
 nav{
-    outline: 1px solid orangered;
+    /* outline: 1px solid orangered; */
     max-height: 64px;
     height: 64px;
     display: flex;
@@ -23,7 +23,7 @@ nav{
 }
 
 .logo{
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
     height: 32px;
     max-height: 32px;
     display: flex;
@@ -47,7 +47,7 @@ nav{
 
 .menu a li {
     display: inline-block;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-left: 1rem;
     padding: 1rem 0 1rem 0;
     
