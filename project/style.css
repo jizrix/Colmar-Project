@@ -1,18 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 *{
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
+    
 }
 
-.navbar{
+nav{
+    outline: 1px solid orangered;
+    max-height: 64px;
+    height: 64px;
     display: flex;
-    flex-direction: row; 
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-left: 24px;
     padding-right: 24px;
-    max-height: 64px;
 }
 
-.navbar--top .logo__text--colmar{
-    font-size: medium;
+.logo{
+    outline: 1px solid blue;
+    height: 32px;
+    max-height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.logo span strong{
+    color: #4c4c4c;
+    font-weight: 600;
+}
+
+.logo span{
+    color: #9a9a9a;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a li {
+    display: inline-block;
+    outline: 1px solid red;
+    margin-left: 1rem;
+    padding: 1rem 0 1rem 0;
+    
+}
+
+.mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width:570px){
+    nav{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .mobile-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    .mobile-nav img{
+        width: 29px;
+    }
+
+    nav a, nav ul {
+        display: none;
+    }
+
 }
