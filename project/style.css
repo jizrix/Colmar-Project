@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-height: 64px;
+}
+
+.navbar--top .logo__text--colmar{
+    font-size: medium;
+}
